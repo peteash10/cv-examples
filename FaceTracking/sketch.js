@@ -33,7 +33,7 @@ function draw() {
     for (var i = 0; i < positions.length; i++) {
    //     fill(map(i, 0, positions.length, 0, 360), 50, 100);
         fill(50, 50, 100);
-        ellipse(positions[i][0], positions[i][1], 4, 4);
+        ellipse(positions[i][0], positions[i][1], 10, 10);
       //  text(i, positions[i][0], positions[i][1]);
     }
 
@@ -42,7 +42,7 @@ function draw() {
         var mouthRight = createVector(positions[50][0], positions[50][1]);
         var smile = mouthLeft.dist(mouthRight);
         // uncomment the line below to show an estimate of amount "smiling" 
-        rect(20, 20, smile * 3, 20);
+    //    rect(20, 20, smile * 3, 20);
         
 //        noStroke();
 //        fill(0, 255, 255);
