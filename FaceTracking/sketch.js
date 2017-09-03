@@ -1,7 +1,7 @@
 // https://github.com/kylemcdonald/AppropriatingNewTechnologies/wiki/Week-2
 var capture;
 var tracker
-var w = 1420,
+var w = 1620,
     h = 960;
 
 function setup() {
