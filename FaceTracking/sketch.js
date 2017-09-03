@@ -1,8 +1,8 @@
 // https://github.com/kylemcdonald/AppropriatingNewTechnologies/wiki/Week-2
 var capture;
 var tracker
-var w = 1620,
-    h = 960;
+var w = 960,
+    h = 600;
 
 function setup() {
     capture = createCapture(VIDEO);
