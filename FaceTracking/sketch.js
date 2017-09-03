@@ -19,6 +19,7 @@ function setup() {
 
 function draw() {
 //    image(capture, 0, 0, w, h);
+    fill(0, 0, 0);
     var positions = tracker.getCurrentPosition();
 
     noFill();
