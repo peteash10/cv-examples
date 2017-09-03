@@ -23,11 +23,11 @@ function draw() {
 
     noFill();
     stroke(255);
-    beginShape();
-    for (var i = 0; i < positions.length; i++) {
-        vertex(positions[i][0], positions[i][1]);
-    }
-    endShape();
+//    beginShape();
+//    for (var i = 0; i < positions.length; i++) {
+//        vertex(positions[i][0], positions[i][1]);
+//    }
+//    endShape();
 
     noStroke();
     for (var i = 0; i < positions.length; i++) {
