@@ -35,7 +35,7 @@ function draw() {
     for (var i = 0; i < positions.length; i++) {
    //     fill(map(i, 0, positions.length, 0, 360), 50, 100);
         fill(50, 50, 100);
-        ellipse(positions[i][0], positions[i][1], 3, 3);
+        ellipse(positions[i][0], positions[i][1], 1, 1);
       //  text(i, positions[i][0], positions[i][1]);
     }
 
